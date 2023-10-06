@@ -1,5 +1,4 @@
-{
-	"id": "magicitems",
+"id": "magicitems",
 	"title": "Magic Items",
 	"description": "Module that adds the ability to create magical items with spells or feats that belong to the item itself, such as staffs or magic wands, which will be automatically inherited from the character who owns the item.",
 	"version": "3.0.0",
@@ -61,21 +60,20 @@
 		"label": "Magic Items",
 		"system": "dnd5e",
 		"path": "./packs/magic-items.db",
-		"entity": "Item"
+		"type": "Item"
 	}, {
 		"name": "magicitem-feats",
 		"label": "Magic Items: Item Feats",
 		"system": "dnd5e",
 		"path": "./packs/magic-items-item-feats.db",
-		"entity": "Item"
+		"type": "Item"
 	}, {
 		"name": "magicitem-tables",
 		"label": "Magic Items: Item Tables",
 		"system": "dnd5e",
 		"path": "./packs/magic-items-item-tables.db",
-		"entity": "RollTable"
+		"type": "RollTable"
 	}],
 	"url": "https://gitlab.com/riccisi/foundryvtt-magic-items",
-	"manifest": "https://gitlab.com/Sentarios/test/module/module.json",
+	"manifest": "hhttps://github.com/Sentarios/test/edit/main/module/module.json",
 	"download": "https://gitlab.com/riccisi/foundryvtt-magic-items/-/jobs/artifacts/3.0.0/raw/magic-items.zip?job=build"
-}
